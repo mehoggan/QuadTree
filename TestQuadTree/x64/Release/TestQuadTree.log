@@ -1,0 +1,43 @@
+﻿Build started 10/10/2019 3:32:53 PM.
+     1>Project "C:\Users\mehoggan\source\repos\QuadTree\TestQuadTree\TestQuadTree.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "x64\Release\TestQuadTree.tlog\".
+       InitializeBuildStatus:
+         Creating "x64\Release\TestQuadTree.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\UnitTest\include" /IC:\Users\mehoggan\source\repos\QuadTree\QuadTreeLib /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"pch.h" /Fp"x64\Release\TestQuadTree.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc142.pdb" /Gd /TP /FC /errorReport:prompt pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\UnitTest\include" /IC:\Users\mehoggan\source\repos\QuadTree\QuadTreeLib /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"x64\Release\TestQuadTree.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc142.pdb" /Gd /TP /FC /errorReport:prompt TestQuadTree.cpp
+         TestQuadTree.cpp
+     1>C:\Users\mehoggan\source\repos\QuadTree\TestQuadTree\TestQuadTree.cpp(110,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>C:\Users\mehoggan\source\repos\QuadTree\TestQuadTree\TestQuadTree.cpp(130,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>C:\Users\mehoggan\source\repos\QuadTree\TestQuadTree\TestQuadTree.cpp(196,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>C:\Users\mehoggan\source\repos\QuadTree\TestQuadTree\TestQuadTree.cpp(316,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mehoggan\source\repos\QuadTree\x64\Release\TestQuadTree.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\UnitTest\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"C:\Users\mehoggan\source\repos\QuadTree\x64\Release\TestQuadTree.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mehoggan\source\repos\QuadTree\x64\Release\TestQuadTree.lib" /MACHINE:X64 /DLL x64\Release\pch.obj
+         x64\Release\TestQuadTree.obj
+         C:\Users\mehoggan\source\repos\QuadTree\x64\Release\QuadTreeLib.lib
+            Creating library C:\Users\mehoggan\source\repos\QuadTree\x64\Release\TestQuadTree.lib and object C:\Users\mehoggan\source\repos\QuadTree\x64\Release\TestQuadTree.exp
+         Generating code
+         Previous IPDB not found, fall back to full compilation.
+         All 244 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         TestQuadTree.vcxproj -> C:\Users\mehoggan\source\repos\QuadTree\x64\Release\TestQuadTree.dll
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\TestQuadTree.tlog\unsuccessfulbuild".
+         Touching "x64\Release\TestQuadTree.tlog\TestQuadTree.lastbuildstate".
+     1>Done Building Project "C:\Users\mehoggan\source\repos\QuadTree\TestQuadTree\TestQuadTree.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+       "C:\Users\mehoggan\source\repos\QuadTree\TestQuadTree\TestQuadTree.vcxproj" (Build target) (1) ->
+       (ClCompile target) -> 
+         C:\Users\mehoggan\source\repos\QuadTree\TestQuadTree\TestQuadTree.cpp(110,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+         C:\Users\mehoggan\source\repos\QuadTree\TestQuadTree\TestQuadTree.cpp(130,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+         C:\Users\mehoggan\source\repos\QuadTree\TestQuadTree\TestQuadTree.cpp(196,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+         C:\Users\mehoggan\source\repos\QuadTree\TestQuadTree\TestQuadTree.cpp(316,17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.41
